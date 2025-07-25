@@ -8,7 +8,7 @@ import org.mapstruct.Mapping;
 import com.bank.entity.AccountEntity;
 import com.bank.model.AccountDTO;
 
-@Mapper(componentModel = "spring")
+@Mapper
 public interface AccountMapper {
 
 	@Mapping(source = "customerEntity", target = "customerDTO")
