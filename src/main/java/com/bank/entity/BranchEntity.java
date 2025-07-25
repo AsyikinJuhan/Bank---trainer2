@@ -32,7 +32,7 @@ public class BranchEntity implements Serializable {
     @Column(name = "branch_id")
     private Long branchID;
 
-    @Column(name = "branch__name", nullable = false, unique = true, length = 100)
+    @Column(name = "branch_name", nullable = false, unique = true, length = 100)
     private String branchName;
 
     @Column(name = "branch_postcode", length = 30)
